@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <title>Anuar Harb</title>
-  <link rel="stylesheet" href="styles.css">
+<head> <!-- head es donde le damos información al navegador -->
+  <meta charset="utf-8"> <!-- set de caracteres permitidos -->
+  <title>Anuar Harb</title> <!-- texto en pestaña del navegadro -->
+  <link rel="stylesheet" href="styles.css"> <!-- referencia al archivo css -->
 </head>
-<body>
-  <header>
-    <h1 class="titulo-principal">¡EL nacimineto de una estrella!</h1>
+<body> <!-- body es donde ponemos el contnido de nuestra página -->
+  <header class="header">
+
   </header>
-  <section class="seccion-info">
-    <img class="foto-personal" src="imagenes/anuar.jpg" alt="Foto de anuar sonriendo">
-    <article class="texto-personal">
-      <h3>Anuar el Progrmador</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et quo distinctio, numquam facilis asperiores quidem at, dolor praesentium dicta voluptatem veritatis iusto expedita aperiam ipsam voluptate nobis ab!</p>
+
+  <section class="bio">
+    <picture class="bio__photo">
+      <img src="images/anuar.jpg" alt="Foto de anuar sonriendo">
+    </picture>
+    <article class="bio__text">
+      <h1>Anuar Harb</h1>
+      <p>Descubrí el código mientras estaba estudiando administración y decidí cambiar mi vida. Ahora soy un desarrollador frontend que ha trabajado con empresas como Beek, Play Business y Centraal Academy. Soy organizador del Google Developer Group Polymer México.</p>
+      <p>Doy clases de Frontend en Centraal Academy de Lunes a Viernes en un horario de 7pm a 10pm. Me gusta mucho ver como los alumnos van descubriendo todo lo que pueden hacer con código y se abren paso en un nuevo mundo.</p>
+      <p class="quote">"If you can't make the most out of any given moment, you don't deserve a single extra second."</p>
     </article>
   </section>
-  <section>
-    <article class="datos-random">
-      <h4>Comida favorita</h4>
-      <img src="imagenes/bicolor.jpg" alt="gatito bicolor">
+
+  <section class="skill">
+    <picture>
+      <img src="images/skills.jpg" alt="html, css, and js logo">
+    </picture>
+  </section>
+
+  <section class="about">
+    <article>
+      <h2>Comida favorita</h2>
+      <picture>
+        <img src="images/chiles.jpg" alt="Chiles en Nogada">
+      </picture>
+      <p>Chiles en Nogada</p>
     </article>
-    <article class="datos-random">
-      <h4>mascotas</h4>
-      <img src="imagenes/bicolor.jpg" alt="gatito bicolor">
+    <article>
+      <h2>Mascotas</h2>
+      <picture>
+        <img src="images/juancho.jpeg" alt="Gatitos bonitos">
+      </picture>
+      <p>Juancho "Juan Rubio" y Frida "La Tamalito"</p>
     </article>
   </section>
+
+  <footer>
+    <ul class="social">
+      <li>
+        <a href="https://www.facebook.com/anuar.harb">
+          <img src="images/facebook.png" alt="facebook logo">
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/AnuarHarb">
+          <img src="images/github.png" alt="github logo">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/anuarharb/">
+          <img src="images/linkedin.png" alt="linkedin logo">
+        </a>
+      </li>
+    </ul>
+  </footer>
 
 </body>
 </html>
